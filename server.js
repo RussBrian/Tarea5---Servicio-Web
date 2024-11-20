@@ -2,6 +2,8 @@ const express = require('express');
 const axios = require('axios');
 const path = require('path');
 
+//Trabajo realizado por Russel Brian Martinez Veloz/2021-1742
+
 const app = express();
 const PORT = 5001;
 
@@ -28,4 +30,4 @@ app.post('/post', async (req, res) => {
     }
 });
 
-app.listen(PORT, () => console.log(`Servidor corriendo en http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Servidor corriendo en http://localhost:${PORT}/get`));
